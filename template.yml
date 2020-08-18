@@ -23,7 +23,7 @@ Resources:
           Type: Api
           Properties:
             Path: /contacts
-            Method: POST
+            Method: GET
   SampleTable:
     Type: AWS::Serverless::SimpleTable
     Properties:

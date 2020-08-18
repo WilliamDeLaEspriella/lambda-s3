@@ -4,6 +4,6 @@ const {create} = require('../controllers/contacts')
 
 module.exports = app => {
 
-    app.post('/contacts', create)
+    app.get('/contacts', create)
 
 };
